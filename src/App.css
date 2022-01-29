@@ -1,0 +1,116 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+div#sec1 {
+  border: 1px solid red;
+  height: 600px;
+  width: 806px;
+  margin: auto;
+  margin-top: 36px;
+  background-color: darksalmon;
+}
+div#sec2 {
+  border: 1px solid darkred;
+  height: 551px;
+  width: 750px;
+  margin: 25px;
+  background-color: aquamarine;
+}
+div#sec3 {
+  border: 1px solid lightgreen;
+  height: 500px;
+  width: 700px;
+  margin: 25px;
+  background-color: blue;
+}
+div#sec4 {
+  border: 1px solid rosybrown;
+  height: 450px;
+  width: 300px;
+  margin: 25px;
+  float: right;
+  background-color: azure;
+}
+div#sec5 {
+  border: 1px solid green;
+  width: 300px;
+  height: 450px;
+  margin: 25px;
+  background-color: azure;
+}
+img {
+  width: 247px;
+  margin: 22px;
+}
+img#ri {
+  width: 217px;
+  margin: 31px;
+}
+img#cim {
+  width: 300px;
+  margin: 6px;
+}
+img#fav {
+  height: 100px;
+  margin: 23px;
+}
+
+ li {
+  
+  display: inline-flex;
+ 
+  padding: 93px;
+  margin-top: -67px;
+ }
+
+div#ul {
+  /* border: 1px solid chartreuse; */
+  height: 100px;
+  text-align: center;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa-Ypffwt1wuJvi7J6qpjUWjNfFvaP17uGXg&usqp=CAU);
+  background-attachment: fixed;
+  background-size: inherit;
+}
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSunBUJtYKMyDYfVkrp-WGe2e_hRwVYNDkYUA&usqp=CAU);
+  background-attachment: fixed;
+  background-size: cover;
+}
+ #ul li:hover {
+   color:rgb(100, 153, 51);
+ }
